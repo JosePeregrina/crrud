@@ -1,0 +1,22 @@
+{
+    "restaurant": [
+        {
+            "id": 1,
+            "nombre": "Chilaquiles",
+            "precio": 43,
+            "categoria": "platillo"
+        },
+        {
+            "id": 2,
+            "nombre": "Flan",
+            "precio": 27,
+            "categoria": "postre"
+        },
+        {
+            "id": 3,
+            "nombre": "Soda",
+            "precio": 13,
+            "categoria": "bebida"
+        }
+    ]
+}
