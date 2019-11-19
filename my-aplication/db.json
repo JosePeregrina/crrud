@@ -1,22 +1,22 @@
 {
-    "restaurant": [
-        {
-            "id": 1,
-            "nombre": "Chilaquiles",
-            "precio": 43,
-            "categoria": "platillo"
-        },
-        {
-            "id": 2,
-            "nombre": "Flan",
-            "precio": 27,
-            "categoria": "postre"
-        },
-        {
-            "id": 3,
-            "nombre": "Soda",
-            "precio": 13,
-            "categoria": "bebida"
-        }
-    ]
+  "restaurant": [
+    {
+      "id": 1,
+      "nombre": "Arepas",
+      "categoria": "Comida",
+      "precio": 13
+    },
+    {
+      "id": 2,
+      "nombre": "Chocomilk",
+      "categoria": "bebida",
+      "precio": 15
+    },
+    {
+      "id": 3,
+      "nombre": "Hamburguesa",
+      "categoria": "comida",
+      "precio": 19
+    }
+  ]
 }
