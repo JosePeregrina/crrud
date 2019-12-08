@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom'
 import ProductList from "./ProductList";
 import ProductMosaic from "./ProductMosaic";
 import Axios from "axios";
@@ -41,7 +42,9 @@ class Products extends Component {
             <ul className="list-group">
               {dishes.map(dish => (
                 <li className="list-group-item" key={`key${dish.id}`}>
-                  <ProductList dish={dish} update={this.update} />
+                  <Link to={`/Edit/${dish.id}`}  >
+                    <ProductList dish={dish} update={this.update} />
+                  </Link>
                 </li>
               ))}
             </ul>

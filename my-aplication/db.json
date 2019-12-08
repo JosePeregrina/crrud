@@ -1,10 +1,10 @@
 {
   "restaurant": [
     {
-      "id": 1,
       "nombre": "Arepas",
-      "categoria": "Comida",
-      "precio": 13
+      "categoria": "comida",
+      "precio": "23",
+      "id": 1
     },
     {
       "id": 2,
@@ -17,6 +17,21 @@
       "nombre": "Hamburguesa",
       "categoria": "comida",
       "precio": 19
+    },
+    {
+      "nombre": "Pozole",
+      "categoria": "postre",
+      "precio": "30",
+      "id": 4
+    },
+    {
+      "nombre": "Enchiladas",
+      "categoria": "comida",
+      "precio": "25",
+      "id": 5
     }
-  ]
+  ],
+  "maxId": {
+    "[object Object]1": ""
+  }
 }
