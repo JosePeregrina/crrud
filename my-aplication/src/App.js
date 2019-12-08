@@ -1,6 +1,4 @@
 import React,{Component} from 'react';
-import Header from "./shared/Header";
-import Footer from "./shared/Footer";
 import Routes from "./Routes";
 class App extends Component {
   render(){
